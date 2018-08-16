@@ -21,3 +21,11 @@ Copy `sded.sh` in your usr/local/bin directory.
 ## How to contribute
 
 Have an idea? Found a bug? Contributions are more than welcome!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* [MIIRO JUUSO](https://getintodevops.com/blog/keeping-the-whale-happy-how-to-clean-up-after-docker)
