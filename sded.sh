@@ -14,6 +14,7 @@ dkrshelp () {
     i:   see list of stored images
     od:  delete orphaned and dangling volumes
     du:  delete dangling and untagged images
+    p:   `official` docker cleanup method; delete stopped containers, and volumes and networks that are not used by containers
 EOT
 exit 0
 }
@@ -43,7 +44,10 @@ case ${cmd} in
     ;;
   du)
     docker rmi $(docker images -q -f dangling=true)
-    ;;    
+    ;;
+  p)
+    docker system prune -a
+    ;;
   *)
     dkrshelp
     ;;
