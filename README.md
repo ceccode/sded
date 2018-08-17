@@ -4,7 +4,7 @@ SDED (Stop Docker eating disk space) is a mini superset of the docker command th
 
 `sded.sh` is a simple bash script.
 
-## Shorcuts
+## Shortcuts
 
 ```bash
 h:   show this help text
